@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: url(baba.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: aquamarine;
+    margin-top: 10px;
+    transition: all 1s;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a:visited {
+    transform: scale(1.2);
+    text-decoration: none;
+    font-size: 2rem;
+    color: aquamarine;
+    margin-top: 10px;
+}
+
+.buffer {
+    height: 2rem;
+}
+
+h1 {
+    font-size: 7rem;
+    color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic
+}
+
+p {
+    font-size: 2.5rem;
+    color: rgb(246, 149, 113);
+    background-color: rgba(98, 189, 198, 0.1);
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px pink;
+}

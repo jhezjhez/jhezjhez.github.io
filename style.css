@@ -1,89 +1,46 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: url(anime.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-
-
-strong {
-  width: 67%;
-  text-align: center;
-  position: relative;
-  font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
-  border-bottom: 2px solid whitesmoke;
-  text-shadow: #4184e3 0 0 10px;
-  color: aliceblue;
-  transition: all 1s;
-  cursor: pointer;
-
+.navbar-brand {
+    font-size: 2rem;
+    transition: all 1s;
 }
 
-h1:hover {
-  transform: scale(1);
+.navbar-brand:hover {
+    transform: scale(1.1);
 }
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 350px;
-
-
-}
-
-.btn-primary {
-  text-align: center;
-  padding: 1rem 2rem;
-  border-radius: 15px;
-  border-width: 5px;
-  border-color: skyblue;
-  background-color: rgba(46, 154, 221, 0.3);
-  transition: all 1s;
-  box-shadow: 5px 5px 5px rgba(46, 154, 221, 0.8);
-  border: none;
+h1 {
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 .buffer {
-  height: 20rem;
-}
-
-/* .buttonmain {
-  margin: auto;
-  text-align: center;
-  padding: 1rem 2rem;
-  border-radius: 15px;
-  border-width: 5px;
-  border-color: skyblue;
-  background-color: rgba(46, 154, 221, 0.3);
-  transition: all 1s;
-  box-shadow: 5px 5px 5px rgba(46, 154, 221, 0.8);
-
-
-} */
-
-.btn-primary:hover {
-  transform: scale(1.2);
+    height: 5rem;
 
 }
 
-a {
-  text-decoration: none;
-  font-weight: bold;
-  font-style: italic;
+section>img {
+    border-radius: 100px;
+
 }
 
-hr {
-  margin: 20px auto;
-  color: #F05F44;
-  border: 3px solid #F05F44;
-  max-width: 65px;
-  opacity: 1;
+section p {
+    font-family: 'fantasy' Times New Roman, Times, serif;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+section .buffer {
+    height: 3rem;
+
 }

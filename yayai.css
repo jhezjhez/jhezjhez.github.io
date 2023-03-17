@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: url(yai.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(154, 43, 179);
+    margin-top: 10px;
+    transition: all 1s;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a:visited {
+    transform: scale(1.2);
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(218, 57, 229);
+    margin-top: 10px;
+}
+
+.buffer {
+    height: 2rem;
+}
+
+h1 {
+    font-size: 7rem;
+    color: rgb(194, 67, 166);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic
+}
+
+p {
+    font-size: 3rem;
+    text-shadow: rgb(65, 20, 94) 1px 0 10px;
+    color: aliceblue;
+}
